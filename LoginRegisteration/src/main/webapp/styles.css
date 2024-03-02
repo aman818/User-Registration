@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+/* style.css */
+
+body {
+    background-color: #f0f0f0; /* Set the background color to a light gray shade */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #ffffff; /* Set the background color of the container to white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a card-like appearance */
+}
+
+h1 {
+    color: #333333; /* Set the text color to a dark gray */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd; /* Set border color to a light gray */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+a {
+    color: #3498db; /* Set link color to a shade of blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Add more styles as needed */
